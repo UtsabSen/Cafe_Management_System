@@ -1214,7 +1214,7 @@ goto A;
             {
                 system("color 01");
                 system("cls");
-                cout<<"\n\n\t\t-:Credits:-\n\n\tName: Utsab Sen\n\tRegistration No: 11709492\n\tSection: K17TC\n\tRoll No: 12\n\tLOVELY PROFESSIONAL UNIVERSITY\n\n";
+                cout<<"\n\n\t\t-:Credits:-\n\n\tName: Utsab Sen\n\tEmail: utsabsen1999@gmail.com\n\tLOVELY PROFESSIONAL UNIVERSITY\n\t <3 INDIA <3 \n\n";
                 getch();
                 goto A;
                 break;
