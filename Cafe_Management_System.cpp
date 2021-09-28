@@ -41,7 +41,7 @@ public:
 
         file.close();
 
-        if(file==NULL)
+        if(file.good())
         {
             Beep(800,250);
             cout<<"\nYou've not registered yet"<<endl<<"At first register\n";
@@ -144,7 +144,7 @@ public:
 
         ifstream file0;
         file0.open(filedetails.c_str());
-        if(file0!=NULL)
+        if(file0.good())
         {
             Beep(800,250);
             cout<<"\nUsername already taken\n";
@@ -232,7 +232,7 @@ public:
         getline(file1,id_2);
 
 
-        if (file1==NULL)
+        if (file1.good())
         {
             Beep(800,250);
             cout<<"username doesnot exists.";
@@ -357,7 +357,7 @@ public:
     {
         ifstream file3;
         file3.open("members.txt");
-        if(file3==NULL)
+        if(file3.good())
         {
             Beep(800,250);
             cout<<"\nAt first add atleast one member\n";
@@ -523,7 +523,7 @@ public:
     {
         ifstream file3;
         file3.open("computers.txt");
-        if(file3==NULL)
+        if(file3.good())
         {
             Beep(800,250);
             cout<<"\nAt first add atleast one member alloted with a computer\n";
@@ -630,7 +630,7 @@ public:
 
         file.close();
 
-        if(file==NULL)
+        if(file.good())
         {
             Beep(800,250);
             cout<<"\nYou've not registered yet"<<endl<<"At first register\n";
@@ -718,7 +718,7 @@ public:
 
         ifstream file0;
         file0.open(filedetails.c_str());
-        if(file0!=NULL)
+        if(file0.good())
         {
             Beep(800,250);
             cout<<"Username already taken\n";
@@ -928,7 +928,7 @@ public:
         cout<<"\nSHOWING CHARGES: \n";
         ifstream file3;
         file3.open("charges.txt");
-        if(file3==NULL)
+        if(file3.good())
         {
             Beep(800,250);
             cout<<"\nAt first add atleast one charge from member\n";
